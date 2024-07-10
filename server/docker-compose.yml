@@ -1,0 +1,11 @@
+version: '4.31.1'
+
+services:
+  python-app:
+    build: .
+    ports:
+      - "5000:5000"
+    command: python src/server.py
+    volumes:
+      - ./src:/src
+  

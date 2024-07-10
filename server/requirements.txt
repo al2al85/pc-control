@@ -1,0 +1,4 @@
+flask
+python-socketio
+influxdb-client
+flask-cors
